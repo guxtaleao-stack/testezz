@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jornal SESI Hamleto</title>
+
+<!-- Aqui linkamos o arquivo CSS separado -->
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* Apenas para teste visual */
+.red-box {
+    border: 2px solid red;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.red-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* A imagem preenche a moldura mantendo proporção */
+}
+</style>
+
+</head>
+<body>
+
+<!-- ================= PAGE 1 ================== -->
+<div class="page">
+<div class="grow">
+
+    <div>
+        <div class="edition-title">
+            <h1>Jornal SESI Hamleto</h1>
+            <p>Edição Especial — 05 / 11 / 2025</p>
+        </div>
+
+        <div class="big-title">CONCURSO ESCOLAR PREMIA MELHOR POEMA SOBRE A CIDADE</div>
+        <div class="text">
+A Escola SESI promoveu um concurso literário com alunos do fundamental e médio.
+Participantes escreveram poemas inspirados em histórias locais, cultura e memória da cidade.
+        </div>
+
+        <!-- Primeira moldura vermelha com imagem -->
+        <div class="red-box">
+            <img src="img/jornal.png" alt="Imagem do jornal">
+        </div>
+
+        <div class="text">
+Durante o evento, alunos recitaram seus textos para professores, pais e convidados.
+A direção afirmou que o concurso será repetido anualmente, incentivando a escrita criativa.
+        </div>
+
+        <div class="columns">
+            <div class="col">
+                <div class="small-title">ALUNOS SE DESTACAM EM ROBÓTICA</div>
+                <div class="text">
+A equipe do SESI Hamleto conquistou o segundo lugar em competição estadual.
+O robô desenvolvido pelos alunos executava tarefas simples e chamou atenção por sua precisão.
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="small-title">NOVA QUADRA ESPORTIVA</div>
+                <div class="text">
+A escola inaugurou uma quadra com arquibancada, iluminação e marcações oficiais.
+Campeonatos internos de futsal e vôlei já estão programados para o próximo mês.
+                </div>
+            </div>
+        </div>
+
+        <div class="small-title">CURIOSIDADES DA SEMANA</div>
+        <div class="text">
+• A horta escolar rendeu mais de 12kg de alface e couve, usados na merenda.  
+• Um aluno do 8º ano descobriu um método de purificação de água usando carvão ativado.  
+• Professores estão planejando uma gincana cultural com premiação para a turma campeã.
+        </div>
+
+        <div class="red-box" style="height:120px;"></div>
+
+        <div class="small-title">OPINIÃO DOS ALUNOS</div>
+        <div class="text">
+"Gostei do concurso, escrevi meu primeiro poema e perdi o medo de apresentar", disse Mariana, do 6º ano.  
+"Quero participar de novo no próximo ano!", comentou Pedro, do 9º ano.
+        </div>
+    </div>
+
+    <div class="page-number">Página 1</div>
+</div>
+</div>
+
+<!-- (restante das páginas permanece igual) -->
+
+</body>
+</html>
